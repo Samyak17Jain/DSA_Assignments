@@ -24,7 +24,7 @@ int main(){
 		switch (num) {
   			case 1:{
                 int num_push;
-		    	cout<<"Enter the number ot push: ";
+		    	cout<<"Enter the number of push: ";
                 cin>>num_push;
                 if(top==size-1){
                     cout<<"Stack is full already";
@@ -87,3 +87,4 @@ int main(){
 
     return 0;
 }
+
